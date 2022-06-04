@@ -10,10 +10,10 @@ function Post({post, id}) {
       <p>{post?.descricao}</p>
       <ul>
         <li>
-          <Image src={truck} height={15} width={15} /> 15 Dias
+          <Image src={truck} height={15} width={15} /> {post?.entrega}
         </li>
         <li className="code">
-          <Image src={code} height={15} width={15} /> React
+          <Image src={code} height={15} width={15} /> {post?.lang}
         </li>
       </ul>
       <a className="Detalhes_Btn" href={id}>

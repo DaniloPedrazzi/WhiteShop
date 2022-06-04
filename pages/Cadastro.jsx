@@ -27,7 +27,7 @@ function Cadastro() {
 
     //manda o post pra db
     const docRef = await addDoc(collection(db, "users"), {
-      id: id,
+      // id: id,
       nome: nome,
       email: email,
       senha: senha,

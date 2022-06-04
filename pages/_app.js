@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-
+import '../styles/CriarProjeto.css'
 import "../styles/Header.css"
 import "../styles/ServiceBox.css"
 
